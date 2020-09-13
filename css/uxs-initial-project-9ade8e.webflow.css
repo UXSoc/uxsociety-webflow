@@ -1273,7 +1273,7 @@ a {
 }
 
 .initiative-card {
-  width: 362px;
+  width: 300px;
 }
 
 .initiative-image {
@@ -1283,7 +1283,92 @@ a {
   background-size: 125px;
 }
 
+.initiative-image.uxchill {
+  background-image: url('../images/Flagship-Events-UXDC-UXChill.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.uxuni {
+  background-image: url('../images/Flagship-Events-UXDC-UX-Uni.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.uxcrawl {
+  background-image: url('../images/Flagship-UX-Crawl.jpeg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.uxmasters {
+  background-image: url('../images/Flagship-Events-UX-Masters.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.uxdcintro {
+  background-image: url('../images/Workshop-UXDC-UXDC-Introductory-Workshops.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.uxr {
+  background-image: url('../images/Workshop-UXDC-UX-Research-Workshops.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.uxdev {
+  background-image: url('../images/Workshop-Engineering-UXDev-Workshops.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.designmonth {
+  background-image: url('../images/Workshop-Marketing-Design-Month.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.bigbux {
+  background-image: url('../images/Workshop-Finance-UXDC-BigBUX.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.hrmentors {
+  background-image: url('../images/Mentorship-Initiative-HR-Externals-Mentorship-Program.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.uxdcmentors {
+  background-image: url('../images/Mentorship-Initiative-UXDC-Mentorship-Program.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.externalsmentors {
+  background-image: url('../images/Mentorship-Initiative-Monthly-Mentors.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.ato {
+  background-image: url('../images/Networking-Externals-ATO-Career-Fair.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
+.initiative-image.virtualuxsfam {
+  background-image: url('../images/Mentorship-Initiative-Virtual-UXS-Fam.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+}
+
 .heading-13 {
+  margin-bottom: 4px;
   color: #444;
   font-size: 32px;
 }
@@ -2087,6 +2172,16 @@ a {
   color: #7200ed;
 }
 
+.grid-4 {
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-13 {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
 @media screen and (max-width: 991px) {
   .section {
     padding-top: 100px;
@@ -2353,6 +2448,10 @@ a {
     flex: 1;
     color: #fcfcfc;
     text-shadow: 1px 1px 6px rgba(5, 15, 121, 0.94);
+  }
+  .grid-4 {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -2857,6 +2956,15 @@ a {
     padding: 7px 7px 4px 21px;
     border-radius: 5px;
     background-color: #04a0e8;
+  }
+  .grid-4 {
+    justify-items: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -3653,6 +3761,14 @@ a {
     display: block;
     max-width: 100%;
   }
+  .grid-4 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .container-6 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
 
 #w-node-91d7026196a4-d8d5d14b {
@@ -3700,13 +3816,6 @@ a {
   grid-column-end: span 2;
 }
 
-#w-node-8f60273879a6-0eafc3cf {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
-  grid-area: Area;
-}
-
 @media screen and (max-width: 767px) {
   #w-node-3a5851c2c2be-f2170baf {
     -ms-grid-row: span 1;
@@ -3738,14 +3847,6 @@ a {
     -ms-grid-column-span: 3;
     grid-column-end: span 3;
   }
-  #w-node-8f60273879a6-0eafc3cf {
-    -ms-grid-column-align: center;
-    justify-self: center;
-    -webkit-align-self: start;
-    -ms-flex-item-align: start;
-    -ms-grid-row-align: start;
-    align-self: start;
-  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3758,58 +3859,6 @@ a {
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
-  }
-  #w-node-8f60273879a6-0eafc3cf {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 2;
-    -ms-grid-column: 1;
-    grid-area: Area;
-    -webkit-box-ordinal-group: 1;
-    -webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-  }
-  @media screen and (max-width: 991px) {
-    #w-node-8f60273879a6-0eafc3cf {
-      -ms-grid-row: 1;
-      -ms-grid-row-span: 1;
-      -ms-grid-column: 1;
-      -ms-grid-column-span: 2;
-    }
-    #w-node-8f60273879a6-0eafc3cf {
-      -ms-grid-row: 1;
-      -ms-grid-row-span: 1;
-      -ms-grid-column: 1;
-      -ms-grid-column-span: 2;
-    }
-  }
-  @media screen and (max-width: 767px) {
-    #w-node-8f60273879a6-0eafc3cf {
-      -ms-grid-row: 1;
-      -ms-grid-row-span: 1;
-      -ms-grid-column: 1;
-      -ms-grid-column-span: 1;
-    }
-    #w-node-8f60273879a6-0eafc3cf {
-      -ms-grid-row: 1;
-      -ms-grid-row-span: 1;
-      -ms-grid-column: 1;
-      -ms-grid-column-span: 1;
-    }
-  }
-  @media screen and (max-width: 479px) {
-    #w-node-8f60273879a6-0eafc3cf {
-      -ms-grid-row: 1;
-      -ms-grid-row-span: 2;
-      -ms-grid-column: 1;
-      -ms-grid-column-span: 1;
-    }
-    #w-node-8f60273879a6-0eafc3cf {
-      -ms-grid-row: 1;
-      -ms-grid-row-span: 2;
-      -ms-grid-column: 1;
-      -ms-grid-column-span: 1;
-    }
   }
 }
 

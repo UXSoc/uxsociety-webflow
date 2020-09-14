@@ -520,7 +520,7 @@
 				<p class="paragraph-11">
 					Here&#x27;s where we let our work speak for ourselves.
 				</p>
-				<div class="gallery-grid-container">
+				<!-- <div class="gallery-grid-container">
 					<blockquote
 						class="instagram-media"
 						data-instgrm-permalink="https://www.instagram.com/p/B0Yd7D2lreJ/?utm_source=ig_embed&amp;utm_campaign=loading"
@@ -1394,7 +1394,7 @@
 							</p>
 						</div>
 					</blockquote>
-				</div>
+				</div> -->
 				<!-- <div class="gallery-grid-container">
 					<a
 						href="#"
@@ -1531,6 +1531,11 @@
 						</script></a
 					>
 				</div> -->
+				<div
+					class="embedsocial-instagram"
+					data-ref="8566f4bdcb9682b64476ed85d549d85a57838964"
+				></div>
+
 				<div class="div-block-4">
 					<a
 						href="https://www.instagram.com/uxsocietyph/"
@@ -1724,6 +1729,18 @@
 				startDelay: 1000,
 			})
 		</script>
-		<script async src="//www.instagram.com/embed.js"></script>
+		<!-- <script async src="//www.instagram.com/embed.js"></script> -->
+		<script>
+			;(function (d, s, id) {
+				var js
+				if (d.getElementById(id)) {
+					return
+				}
+				js = d.createElement(s)
+				js.id = id
+				js.src = 'https://embedsocial.com/embedscript/in.js'
+				d.getElementsByTagName('head')[0].appendChild(js)
+			})(document, 'script', 'EmbedSocialInstagramScript')
+		</script>
 	</body>
 </html>

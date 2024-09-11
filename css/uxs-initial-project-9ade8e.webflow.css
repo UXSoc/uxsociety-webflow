@@ -1766,110 +1766,53 @@ a {
 	width: 40px;
 	height: 40px;
 	margin-right: 4px;
-	background-image: url('../images/facebook.png');
 	background-position: 0px 0px;
 	background-size: cover;
+	background-color:  #BDBDBD;
+	mask-repeat: no-repeat;
+	-webkit-mask-repeat: no-repeat;
+	mask-position: 50% 50%;
+	-webkit-mask-position: 50% 50%;
 	-webkit-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-
 .contact-icons:hover {
-	background-image: url('../images/facebook_1.png');
-	background-position: 0px 0px;
-	background-size: cover;
+	background-color: #03A0E8;
 }
 
-.contact-icons.facebook {
-	background-image: url('../images/facebook_2.png');
-	background-position: 50% 50%;
-	background-size: cover;
+.contact-icons.facebook {	
+	mask-image: url('../images/facebook.svg');
+	-webkit-mask-image: url('../images/facebook.svg');
 }
 
-.contact-icons.facebook:hover {
-	background-image: url('../images/facebook_1.png');
-	background-position: 50% 50%;
-	background-size: cover;
+.contact-icons.twitter {	
+	mask: url('../images/twitter.svg');
+	-webkit-mask: url('../images/twitter.svg');
 }
 
-.contact-icons.twitter {
-	background-image: url('../images/twitter_1.png');
-	background-position: 50% 50%;
-	background-size: cover;
+.contact-icons.instagram {	
+	mask: url('../images/instagram.svg');
+	-webkit-mask: url('../images/instagram.svg');
 }
 
-.contact-icons.twitter:hover {
-	background-image: url('../images/Twitter.png');
-	background-position: 50% 50%;
-	background-size: cover;
+.contact-icons.medium {	
+	mask: url('../images/medium.svg');
+	-webkit-mask: url('../images/medium.svg');
 }
 
-.contact-icons.instagram {
-	background-image: url('../images/instagram_1.png');
-	background-position: 50% 50%;
-	background-size: cover;
+.contact-icons.git {	
+	mask: url('../images/github.svg');
+	-webkit-mask: url('../images/github.svg');
 }
 
-.contact-icons.instagram:hover {
-	background-image: url('../images/instagram.png');
-	background-position: 50% 50%;
-	background-size: cover;
+.contact-icons.youtube {	
+	mask: url('../images/youtube.svg');
+	-webkit-mask: url('../images/youtube.svg');
 }
 
-.contact-icons.discord {
-	background-image: url('../images/discord_1.png');
-	background-position: 50% 50%;
-	background-size: cover;
-}
-
-.contact-icons.discord:hover {
-	background-image: url('../images/discord.png');
-	background-position: 50% 50%;
-	background-size: cover;
-}
-
-.contact-icons.medium {
-	background-image: url('../images/medium_1.png');
-	background-position: 50% 50%;
-	background-size: cover;
-}
-
-.contact-icons.medium:hover {
-	background-image: url('../images/medium.png');
-	background-position: 50% 50%;
-	background-size: cover;
-}
-
-.contact-icons.git {
-	background-image: url('../images/github_1.png');
-	background-position: 50% 50%;
-	background-size: cover;
-}
-
-.contact-icons.git:hover {
-	background-image: url('../images/github.png');
-	background-position: 50% 50%;
-	background-size: cover;
-}
-
-.contact-icons.youtube {
-	background-image: url('../images/youtube_1.png');
-	background-position: 50% 50%;
-	background-size: cover;
-}
-
-.contact-icons.youtube:hover {
-	background-image: url('../images/youtube.png');
-	background-position: 0px 0px;
-	background-size: cover;
-}
-
-.contact-icons.email {
-	background-image: url('../images/mail.png');
-	background-position: 50% 50%;
-}
-
-.contact-icons.email:hover {
-	background-image: url('../images/mail-hover.png');
+.contact-icons.email {	
+	mask: url('../images/email.svg');
+	-webkit-mask: url('../images/email.svg');
 }
 
 .text-span-4 {
